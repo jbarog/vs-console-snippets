@@ -1,0 +1,24 @@
+{
+    "name": "vs-console-snippets",
+    "displayName": "vs-console-snippets",
+    "description": "This extension contains code snippets for fast use of console methods for Vs Code editor (supports both JavaScript and TypeScript).",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.61.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.code-snippets"
+            },
+            {
+                "language": "typescript",
+                "path": "./snippets/snippets.code-snippets"
+            }
+        ]
+    }
+}

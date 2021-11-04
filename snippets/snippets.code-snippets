@@ -1,0 +1,69 @@
+{
+	"console count": {
+		"prefix": "conCount",
+		"body": [
+			"console.${1|count,countReset|}('${2:counter}$3');$0",
+		],
+		"description": "create console counter"
+	},
+	"console debug": {
+		"prefix": "conDebug",
+		"body": [
+			"",
+			"console.${1|log,error,trace,table,debug,clear,info,warn,assert,count,countReset,dir,dirxml,group,groupCollapsed,groupEnd,time,timeLog,timeEnd|}($2)",
+		],
+		"description": "create console debug"
+	},
+	"console time": {
+		"prefix": "conTime",
+		"body": [
+			"console.${1|time,timeLog,timeEnd|}('${2:timeLog}$3');$0",
+		],
+		"description": "create console time"
+	},
+    "log --": {
+        "prefix": "log--",
+        "body": [
+            "console.log('------------------'$1);$0"
+        ],
+        "description": "log separator"
+    },
+	"log assigment": {
+		"prefix": "logAssigment",
+		"body": [
+			"",
+			"console.log(${TM_CURRENT_LINE/\\s*(let|const|var)?\\s*([^\\=,^\\s]*)\\s*=.*/'$2',$2/});"
+		],
+		"description": "log variable assigmnet"
+	},
+	"log clipboard": {
+		"prefix": "logClipboard",
+		"body": [
+			"console.log('${CLIPBOARD}', ${CLIPBOARD});"
+		],
+		"description": "log clipboard"
+	},
+	"log function": {
+		"prefix": "logFunction",
+		"body": [
+			"",
+			"console.log('${TM_CURRENT_LINE/^(\\s|\bfunction\b|\bvar\b|\blet\b|\bconst\b)*([^\\=\\(:\\s]*)[=:\\s\bfunction\b]*(\\(.*\\))[\\s*,=>?]*{.*/$2$3/g}'${TM_CURRENT_LINE/.*\\((.*)\\).*/${1:+, }$1/});",
+		],
+		"description": "Logs function call on current line"
+	},
+	"log line number": {
+		"prefix": "logLineNumber",
+		"body": [
+			"console.log('line ${TM_LINE_NUMBER}');"
+		],
+		"description": "log line number"
+	},
+	"log this line": {
+		"prefix": "logThisLine",
+		"body": [
+			"",
+			"console.log('${TM_CURRENT_LINE/\\s*(.*)logt?.*/$1/g}');",
+		],
+		"description": "log current line IN PROGRESS"
+	},
+}
