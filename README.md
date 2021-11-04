@@ -29,16 +29,16 @@ Logs function name params and its values under it definition.
 ```javascript
 console.log('foo(param1, param2)', param1, param2);
 ```
-![logFunction](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunction.gif)
+![logFunction](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunct.gif)
 
 It supports many function definitions like:
 * `function foo(param1, param2) {`
 * `const foo = (param1, param2) => {`
 * `foo: function(param1, param2) {`
 
-![logFunction](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunction2.gif)
-![logFunction](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunction3.gif)
-![logFunction](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunction4.gif)
+![logFunction 1](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunct2.gif)
+![logFunction 2](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunct3.gif)
+![logFunction 3](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunct4.gif)
 
 ### log--
 Logs a sepparator in order to differentiate log lines or find a particular log line.
