@@ -2,13 +2,27 @@
     "name": "vs-console-snippets",
     "displayName": "vs-console-snippets",
     "description": "This extension contains code snippets for fast use of console methods for Vs Code editor (supports both JavaScript and TypeScript).",
-    "version": "0.0.1",
+    "version": "1.0.1",
+    "icon": "assets/icon.png",
+    "publisher": "jbaro",
     "engines": {
         "vscode": "^1.61.0"
     },
+    "keywords": [
+        "console",
+        "log",
+        "debug",
+        "javascript",
+        "typescript"
+    ],
     "categories": [
         "Snippets"
     ],
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jbarog/vs-console-snippets.git"
+    },
     "contributes": {
         "snippets": [
             {

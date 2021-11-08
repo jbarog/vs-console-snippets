@@ -2,7 +2,7 @@
 
 A snippets pack to make you more productive debugging with JavaScript/Typescript.
 
-Download this extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items/xxxxxxx)
+Download this extension from the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=jbaro.vs-console-snippets)
 
 ## Features
 
@@ -37,7 +37,9 @@ It supports many function definitions like:
 * `foo: function(param1, param2) {`
 
 ![logFunction 1](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunct2.gif)
+
 ![logFunction 2](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunct3.gif)
+
 ![logFunction 3](https://raw.githubusercontent.com/jbarog/vs-console-snippets/master/assets/logFunct4.gif)
 
 ### log--
@@ -108,6 +110,10 @@ Users appreciate release notes as you update your extension.
 ### 1.0.0
 
 First release
+
+### 1.0.1
+
+Fix README
 
 
 
