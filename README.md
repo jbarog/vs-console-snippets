@@ -115,5 +115,8 @@ First release
 
 Fix README
 
+### 1.0.2
+
+Fix logAssigment and logFunction
 
 

@@ -11,3 +11,8 @@ All notable changes to the "vs-console-snippets" extension will be documented in
 - Add keywords to package.json
 - Add repository to package.json
 - Add Licence
+
+## 1.0.2
+### Changed
+- Fix logAssigment and logFunction regex format
+- Changes on Licence

@@ -32,7 +32,7 @@
 		"prefix": "logAssigment",
 		"body": [
 			"",
-			"console.log(${TM_CURRENT_LINE/\\s*(let|const|var)?\\s*([^\\=,^\\s]*)\\s*=.*/'$2',$2/});"
+			"console.log(${TM_CURRENT_LINE/\\s*(\\blet\\b|\\bconst\\b|\\bvar\\b)?\\s*([^\\=,^\\s]*)\\s*=.*/'$2',$2/});"
 		],
 		"description": "log variable assigmnet"
 	},
@@ -47,7 +47,7 @@
 		"prefix": "logFunction",
 		"body": [
 			"",
-			"console.log('${TM_CURRENT_LINE/^(\\s|\bfunction\b|\bvar\b|\blet\b|\bconst\b)*([^\\=\\(:\\s]*)[=:\\s\bfunction\b]*(\\(.*\\))[\\s*,=>?]*{.*/$2$3/g}'${TM_CURRENT_LINE/.*\\((.*)\\).*/${1:+, }$1/});",
+			"console.log('${TM_CURRENT_LINE/^(\\s|\\bexport\\b|\\bfunction\\b|\\bvar\\b|\\blet\\b|\\bconst\\b|\\basync\\b)*([^\\=\\(:\\s]*)[=:\\s\\bfunction\\b]*(\\(.*\\))[\\s*,=>?]*{.*/$2$3/g}'${TM_CURRENT_LINE/.*\\((.*)\\).*/${1:+, }$1/});",
 		],
 		"description": "Logs function call on current line"
 	},
