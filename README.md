@@ -119,4 +119,6 @@ Fix README
 
 Fix logAssigment and logFunction
 
+### 1.0.3
 
+Add indentation on logFunction snippet

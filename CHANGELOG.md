@@ -16,3 +16,7 @@ All notable changes to the "vs-console-snippets" extension will be documented in
 ### Changed
 - Fix logAssigment and logFunction regex format
 - Changes on Licence
+
+## 1.0.3
+### Changed
+- Add indentation on logFunction snippet
